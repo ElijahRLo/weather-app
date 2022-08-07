@@ -19,3 +19,40 @@ body {
     margin: 10em;
     
 }
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: .3em;
+    border-radius: 20%;
+    border: none;
+    height: 35px;
+    width: 35px;
+    background: #d5eaea2b;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d5eaea6b;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 2%;
+    width: 50%;
+    background: #d5eaea2b;
+    color: white;
+    font-family: inherit;
+    font-size: 90%;
+}
+
+h1.temp {
+    margin: 0;
+}

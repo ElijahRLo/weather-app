@@ -18,7 +18,7 @@ let weather = {
 
         document.querySelector(".city").innerText = "Weather in " + name;
         document.querySelector(".icon").src = "http://openweathermap.org/img/wn/" + icon + ".png";
-        document.querySelector(".description").innerText = "Condition: " + description;
+        document.querySelector(".description").innerText = description;
         document.querySelector(".feels").innerText = "Feels like: " + feels_like + "°F";
         document.querySelector(".temp").innerText = temp + "°F";
         document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";

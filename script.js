@@ -27,5 +27,22 @@ let weather = {
 
 
     
+    },
+
+    search : function() {
+        this.fetchWeather(document.querySelector(".search-bar").value);
     }
 }
+
+//if mouse clicked will search
+document.querySelector(".search button").addEventListener("click", function() {
+        weather.search();
+
+})
+
+//if enter is pressed will search
+document.querySelector(".search-bar").addEventListener("keyup", function(event) {
+    if(event.key == "Enter") {
+        weather.search();
+    }
+});
